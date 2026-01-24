@@ -109,4 +109,24 @@ background:var(--primary) !important;
 background:var(--primary) !important;
 }
 
+.resp-tab-item.resp-tab-active::before{
+border: 5px solid var(--primary-hover) !important;
+}
 
+.resp-tab-item.resp-tab-active {
+box-shadow: 0 3px 0 0 var(--primary-hover) !important;
+  color: var(--primary-hover) !important;
+}
+
+.domain-page .domain-section .resp-tabs-list .resp-tab-item::before {
+  color: #fff !important;
+}
+
+.domain-input {
+border: 2px solid var(--primary-hover) !important;
+}
+
+.continue-btn {
+background:var(--primary) !important;
+box-shadow: 0 3px 5px 0 rgba(32, 255, 0, 0.33);
+}
