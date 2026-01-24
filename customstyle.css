@@ -1,0 +1,112 @@
+:root{
+    /* Functional Variables */
+    --primary: #219e00;
+    --primary-hover: #187300;
+
+    --secondary: #283557;
+    --secondary-hover: #3D4E60;
+
+    /* Color Definitions */
+    --green:#0d9d05;
+    --dark-green:#197600;
+    --lightgreen:#28af03;
+    --text-dark:#2d5728;
+    --dark-black:#1b1b1b;
+}
+
+/* Element Styles */
+a  {
+    color: var(--primary);
+}
+a:hover{
+  color: var(--primary-hover);
+}
+
+.client-area-page .client-area-top-block .client-area-top-box:hover {
+border-color: #109f04;
+}
+
+.main-menu>ul>li>a.active, .main-menu>ul>li>a:hover {
+color:black;
+}
+
+.main-menu > ul > li.show > a {
+background: #219a00;
+}
+
+.main-menu > ul > li .dropdown-menu {
+background: var(--primary);
+}
+
+.main-menu > ul > li .dropdown-menu > li > a:hover{
+background: var(--lightgreen);
+}
+
+.current-user a:hover {
+    color: var(--primary-hover) !important;
+}
+
+.product-flex-wrapper .product-flex-item .head .title {
+background:#1f9100;
+}
+
+.cart-status-nodes.done {
+background: var(--primary-hover) !important;
+border: 14px solid var(--primary-hover) !important;
+}
+
+.cart-status-nodes.now{
+background: var(--primary) !important;
+border: 14px solid var(--primary) !important;
+}
+
+
+.app-btns.primary {
+    background-color: var(--primary);
+}
+
+.app-btns.primary:hover {
+    background-color:var( --primary-hover); 
+}
+
+.product-flex-wrapper .product-flex-item.highlight  {
+border: 1px solid var( --primary);
+}
+
+.change-code a {
+    color: var(--primary) !important;
+}
+
+.inner-rail {
+background:var(--primary) !important;
+}
+
+.cart-status-nodes.active .cart-status-label{
+ color: var(--primary) !important;
+}
+
+.info-bar{
+background:#f4fcf4 !important;
+}
+
+.alert-box {
+background:var(--primary) !important;
+}
+
+.discount-applied .val {
+  color: var(--primary) !important;
+ }
+
+.summery-bottom p span {
+color: var(--primary) !important;
+}
+
+label.selected::before {
+background:var(--primary) !important;
+}
+
+.select2-results__option--highlighted.select2-results__option--selectable {
+background:var(--primary) !important;
+}
+
+
