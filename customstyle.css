@@ -2,9 +2,13 @@
     /* Functional Variables */
     --primary: #219e00;
     --primary-hover: #187300;
+    --primary-outline:#1d8b00;
 
     --secondary: #283557;
     --secondary-hover: #3D4E60;
+
+    /* Text Colors */
+    --primary-text-color: #ffffff;
 
     /* Color Definitions */
     --green:#0d9d05;
@@ -26,6 +30,8 @@ a:hover{
 border-color: #109f04;
 }
 
+/* Top Navigation Menu Colors */
+
 .main-menu>ul>li>a.active, .main-menu>ul>li>a:hover {
 color:black;
 }
@@ -40,6 +46,22 @@ background: var(--primary);
 
 .main-menu > ul > li .dropdown-menu > li > a:hover{
 background: var(--lightgreen);
+}
+
+.main-menu>ul>li .dropdown-menu>li {
+    border-top: 1px solid #1d8b00;
+}
+
+.header-user-menu .current-user>ul {
+background: var(--primary);
+}
+
+.header-right .current-user a:hover {
+        color: var(--primary-text-color) !important;
+}
+
+.header-user-menu .current-user>ul li a:hover {
+    background: var(--primary-hover);
 }
 
 .current-user a:hover {
